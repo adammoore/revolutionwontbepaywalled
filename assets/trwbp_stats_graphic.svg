@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  
+  <!-- Red accent bars -->
+  <rect x="0" y="0" width="20" height="675" fill="#DC143C"/>
+  <rect x="1180" y="0" width="20" height="675" fill="#DC143C"/>
+  
+  <!-- Main statistic -->
+  <text x="600" y="180" font-family="Arial, Helvetica, sans-serif" font-size="140" 
+        font-weight="bold" text-anchor="middle" fill="#DC143C">
+    37%
+  </text>
+  
+  <text x="600" y="240" font-family="Arial, Helvetica, sans-serif" font-size="36" 
+        text-anchor="middle" fill="#FFFFFF">
+    ELSEVIER'S PROFIT MARGIN
+  </text>
+  
+  <!-- Comparison stats -->
+  <g transform="translate(200, 320)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#FFD700">Higher than:</text>
+    <text x="0" y="50" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF">→ Apple (23%)</text>
+    <text x="0" y="95" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF">→ Google (26%)</text>
+    <text x="0" y="140" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF">→ Microsoft (34%)</text>
+  </g>
+  
+  <g transform="translate(650, 320)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#FFD700">Built on:</text>
+    <text x="0" y="50" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF">→ Unpaid peer review</text>
+    <text x="0" y="95" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF">→ Unpaid editorial work</text>
+    <text x="0" y="140" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#FFFFFF">→ Publicly funded research</text>
+  </g>
+  
+  <!-- Bottom tagline -->
+  <rect x="100" y="530" width="1000" height="100" fill="#DC143C"/>
+  <text x="600" y="595" font-family="Arial, Helvetica, sans-serif" font-size="48" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    THE REVOLUTION WON'T BE PAYWALLED
+  </text>
+  
+  <!-- Hashtag -->
+  <text x="600" y="645" font-family="Arial, Helvetica, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#FFD700">
+    #ScholarlyCommons  #TRWBP  #OpenScience
+  </text>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Square format for Instagram -->
+  <rect width="1080" height="1080" fill="#000000"/>
+  
+  <!-- Red accent borders -->
+  <rect x="0" y="0" width="1080" height="30" fill="#DC143C"/>
+  <rect x="0" y="1050" width="1080" height="30" fill="#DC143C"/>
+  <rect x="0" y="0" width="30" height="1080" fill="#DC143C"/>
+  <rect x="1050" y="0" width="30" height="1080" fill="#DC143C"/>
+  
+  <!-- Opening quote mark -->
+  <text x="120" y="200" font-family="Georgia, serif" font-size="180" 
+        font-weight="bold" fill="#DC143C" opacity="0.3">
+    "
+  </text>
+  
+  <!-- Main quote -->
+  <text x="540" y="380" font-family="Arial, Helvetica, sans-serif" font-size="56" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    This isn't a
+  </text>
+  
+  <text x="540" y="460" font-family="Arial, Helvetica, sans-serif" font-size="56" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    publishing model.
+  </text>
+  
+  <text x="540" y="580" font-family="Arial, Helvetica, sans-serif" font-size="62" 
+        font-weight="bold" text-anchor="middle" fill="#DC143C">
+    It's wealth extraction
+  </text>
+  
+  <text x="540" y="680" font-family="Arial, Helvetica, sans-serif" font-size="56" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    with a scholarly veneer.
+  </text>
+  
+  <!-- Closing quote mark -->
+  <text x="880" y="760" font-family="Georgia, serif" font-size="180" 
+        font-weight="bold" fill="#DC143C" opacity="0.3">
+    "
+  </text>
+  
+  <!-- Attribution -->
+  <line x1="200" y1="830" x2="880" y2="830" stroke="#DC143C" stroke-width="3"/>
+  
+  <text x="540" y="890" font-family="Arial, Helvetica, sans-serif" font-size="32" 
+        text-anchor="middle" fill="#FFD700">
+    THE REVOLUTION WON'T BE PAYWALLED
+  </text>
+  
+  <text x="540" y="940" font-family="Arial, Helvetica, sans-serif" font-size="26" 
+        text-anchor="middle" fill="#FFFFFF">
+    Dr Adam Vials Moore
+  </text>
+  
+  <text x="540" y="980" font-family="Arial, Helvetica, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#FFFFFF">
+    #ScholarlyCommons  #TRWBP
+  </text>
+</svg>

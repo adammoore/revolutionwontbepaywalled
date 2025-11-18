@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="400" cy="400" r="380" fill="#DC143C" stroke="#000000" stroke-width="8"/>
+  
+  <!-- Broken lock/paywall symbol -->
+  <g transform="translate(400, 320)">
+    <!-- Lock body (broken) -->
+    <rect x="-80" y="0" width="80" height="100" fill="#000000" rx="10"/>
+    <rect x="0" y="0" width="80" height="100" fill="#000000" rx="10"/>
+    
+    <!-- Broken shackle -->
+    <path d="M -60,0 L -60,-60 Q -60,-100 -20,-100 L 0,-100" 
+          stroke="#000000" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M 20,-100 L 40,-100 Q 80,-100 80,-60 L 80,0" 
+          stroke="#000000" stroke-width="20" fill="none" stroke-linecap="round"/>
+    
+    <!-- Break/crack indicators -->
+    <line x1="-10" y1="-100" x2="-30" y2="-120" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+    <line x1="10" y1="-100" x2="30" y2="-120" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+    <line x1="0" y1="-105" x2="0" y2="-130" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text: THE REVOLUTION -->
+  <text x="400" y="520" font-family="Arial, Helvetica, sans-serif" font-size="60" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    THE REVOLUTION
+  </text>
+  
+  <!-- Text: WON'T BE -->
+  <text x="400" y="590" font-family="Arial, Helvetica, sans-serif" font-size="60" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    WON'T BE
+  </text>
+  
+  <!-- Text: PAYWALLED -->
+  <text x="400" y="660" font-family="Arial, Helvetica, sans-serif" font-size="70" 
+        font-weight="bold" text-anchor="middle" fill="#FFD700" 
+        style="text-decoration: line-through; text-decoration-color: #FFD700; text-decoration-thickness: 6px;">
+    PAYWALLED
+  </text>
+  
+  <!-- Open Access symbol at top -->
+  <g transform="translate(400, 140)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#FFD700" stroke-width="8"/>
+    <circle cx="0" cy="0" r="15" fill="#FFD700"/>
+    <path d="M 0,-15 L 0,-50" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

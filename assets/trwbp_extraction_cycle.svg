@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Instagram-sized infographic -->
+  <defs>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1080" height="1350" fill="url(#darkBg)"/>
+  
+  <!-- Title -->
+  <text x="540" y="80" font-family="Arial, Helvetica, sans-serif" font-size="52" 
+        font-weight="bold" text-anchor="middle" fill="#DC143C">
+    THE EXTRACTION CYCLE
+  </text>
+  
+  <text x="540" y="130" font-family="Arial, Helvetica, sans-serif" font-size="28" 
+        text-anchor="middle" fill="#FFFFFF">
+    How scholarly publishing extracts billions
+  </text>
+  
+  <!-- Circle diagram -->
+  <circle cx="540" cy="450" r="250" fill="none" stroke="#DC143C" stroke-width="8"/>
+  <circle cx="540" cy="450" r="260" fill="none" stroke="#DC143C" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- Center text -->
+  <text x="540" y="430" font-family="Arial, Helvetica, sans-serif" font-size="48" 
+        font-weight="bold" text-anchor="middle" fill="#FFD700">
+    37%
+  </text>
+  <text x="540" y="470" font-family="Arial, Helvetica, sans-serif" font-size="28" 
+        text-anchor="middle" fill="#FFFFFF">
+    PROFIT
+  </text>
+  <text x="540" y="505" font-family="Arial, Helvetica, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#FFFFFF">
+    MARGIN
+  </text>
+  
+  <!-- Steps around circle -->
+  <!-- Step 1: Public Funding (top) -->
+  <g transform="translate(540, 150)">
+    <rect x="-120" y="0" width="240" height="80" fill="#DC143C" rx="10"/>
+    <text x="0" y="35" font-family="Arial, Helvetica, sans-serif" font-size="20" 
+          font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      1. PUBLIC FUNDS
+    </text>
+    <text x="0" y="60" font-family="Arial, Helvetica, sans-serif" font-size="18" 
+          text-anchor="middle" fill="#FFFFFF">
+      Research grant
+    </text>
+  </g>
+  
+  <!-- Step 2: Free Labour (right) -->
+  <g transform="translate(850, 450)">
+    <rect x="-10" y="-40" width="200" height="80" fill="#DC143C" rx="10"/>
+    <text x="90" y="-5" font-family="Arial, Helvetica, sans-serif" font-size="20" 
+          font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      2. FREE LABOUR
+    </text>
+    <text x="90" y="20" font-family="Arial, Helvetica, sans-serif" font-size="18" 
+          text-anchor="middle" fill="#FFFFFF">
+      Review + Edit
+    </text>
+  </g>
+  
+  <!-- Step 3: Corporate Control (bottom) -->
+  <g transform="translate(540, 750)">
+    <rect x="-140" y="-80" width="280" height="80" fill="#DC143C" rx="10"/>
+    <text x="0" y="-45" font-family="Arial, Helvetica, sans-serif" font-size="20" 
+          font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      3. CORPORATE CONTROL
+    </text>
+    <text x="0" y="-20" font-family="Arial, Helvetica, sans-serif" font-size="18" 
+          text-anchor="middle" fill="#FFFFFF">
+      Copyright + Paywall
+    </text>
+  </g>
+  
+  <!-- Step 4: Buy Back (left) -->
+  <g transform="translate(230, 450)">
+    <rect x="-190" y="-40" width="200" height="80" fill="#DC143C" rx="10"/>
+    <text x="-90" y="-5" font-family="Arial, Helvetica, sans-serif" font-size="20" 
+          font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      4. BUY IT BACK
+    </text>
+    <text x="-90" y="20" font-family="Arial, Helvetica, sans-serif" font-size="18" 
+          text-anchor="middle" fill="#FFFFFF">
+      Subscriptions + APCs
+    </text>
+  </g>
+  
+  <!-- Arrows showing cycle -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#FFD700" />
+    </marker>
+  </defs>
+  
+  <!-- Arrow lines (simplified curve representations) -->
+  <path d="M 540,230 Q 650,300 730,400" stroke="#FFD700" stroke-width="6" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 770,500 Q 700,600 580,700" stroke="#FFD700" stroke-width="6" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 500,700 Q 380,600 310,500" stroke="#FFD700" stroke-width="6" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 310,400 Q 380,300 500,230" stroke="#FFD700" stroke-width="6" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Bottom explanation -->
+  <g transform="translate(90, 850)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="32" 
+          font-weight="bold" fill="#DC143C">
+      THE SOLUTION:
+    </text>
+    
+    <text x="0" y="50" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF">
+      • Scholar-governed Diamond OA
+    </text>
+    <text x="0" y="90" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF">
+      • Redirect subscription funds
+    </text>
+    <text x="0" y="130" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF">
+      • Knowledge as public infrastructure
+    </text>
+    <text x="0" y="170" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF">
+      • Break the monopoly
+    </text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="90" y="1100" width="900" height="90" fill="#DC143C" rx="10"/>
+  <text x="540" y="1155" font-family="Arial, Helvetica, sans-serif" font-size="42" 
+        font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    THE REVOLUTION WON'T BE PAYWALLED
+  </text>
+  
+  <text x="540" y="1220" font-family="Arial, Helvetica, sans-serif" font-size="28" 
+        text-anchor="middle" fill="#FFD700">
+    #ScholarlyCommons  #TRWBP
+  </text>
+  
+  <text x="540" y="1280" font-family="Arial, Helvetica, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#FFFFFF">
+    Dr Adam Vials Moore • FAIR-Res-ConMan
+  </text>
+</svg>
