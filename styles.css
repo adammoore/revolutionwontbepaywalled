@@ -78,6 +78,12 @@ nav .container {
     color: var(--primary-red);
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
