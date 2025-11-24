@@ -129,25 +129,31 @@ nav .container {
 }
 
 .btn-primary {
-    background: var(--primary-red);
-    color: var(--text-light);
+    background: var(--text-light);
+    color: var(--primary-red);
+    border: 2px solid var(--text-light);
 }
 
 .btn-primary:hover {
-    background: var(--dark-red);
+    background: var(--accent-gold);
+    color: var(--text-dark);
+    border-color: var(--accent-gold);
     transform: translateY(-2px);
-    box-shadow: var(--shadow);
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.4);
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--primary-red);
-    border: 2px solid var(--primary-red);
+    color: var(--text-light);
+    border: 2px solid var(--text-light);
 }
 
 .btn-secondary:hover {
-    background: var(--primary-red);
-    color: var(--text-light);
+    background: var(--text-light);
+    color: var(--primary-red);
+    border-color: var(--text-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
 }
 
 .btn-white {
